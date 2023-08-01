@@ -3,12 +3,17 @@
   height: 130px;
 }
 
-.body-bg {
-  background-color: #fef6e4;
+.body-color {
+  background-color: #f8f5f2;
 }
 
 .navtitle {
   font-family: 'Concert One', cursive;
+}
+
+.my-navcolors {
+  background-color: #f8f5f2;
+  border-bottom: 3px solid #272343;
 }
 
 .head-text {
@@ -17,4 +22,8 @@
 
 .body-text {
   font-family: 'Patrick Hand', cursive;
+}
+
+.body-content {
+  padding-left: 7px;
 }
