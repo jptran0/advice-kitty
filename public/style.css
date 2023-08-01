@@ -2,3 +2,19 @@
   width: 130px;
   height: 130px;
 }
+
+.body-bg {
+  background-color: #fef6e4;
+}
+
+.navtitle {
+  font-family: 'Concert One', cursive;
+}
+
+.head-text {
+  font-family: 'Concert One', cursive;
+}
+
+.body-text {
+  font-family: 'Patrick Hand', cursive;
+}

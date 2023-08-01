@@ -16,11 +16,3 @@ get("/meowtivation") do
   
   erb(:cat_advice)
 end
-
-get("/meowdy") do
-  cat_data = HTTP.get("https://api.thecatapi.com/v1/images/search")
-  parsed_cat_data = JSON.parse(cat_data).first
-  @cat_image = parsed_cat_data.fetch("url")
-  
-  erb(:cat_image)
-end
