@@ -16,3 +16,10 @@ get("/meowtivation") do
   
   erb(:cat_advice)
 end
+
+get("/meowfacts") do
+  raw_data = HTTP.get("https://meowfacts.herokuapp.com/")
+  @fact = JSON.parse(raw_data).fetch("data").first
+
+  erb(:cat_fact)
+end
